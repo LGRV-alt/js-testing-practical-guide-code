@@ -3,7 +3,6 @@ import { calculateResult } from "./src/math.js";
 import { generateResultText, outputResult } from "./src/output.js";
 
 const form = document.querySelector("form");
-const output = document.getElementById("result");
 
 function formSubmitHandler(event) {
   event.preventDefault();
